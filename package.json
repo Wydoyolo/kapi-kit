@@ -1,0 +1,48 @@
+{
+  "name": "kapi-kit",
+  "version": "0.1.0",
+  "description": "Type-safe Node.js 22 SDK for the Kick Public API with OAuth helpers and runnable examples.",
+  "type": "module",
+  "author": "New Kick Bot",
+  "license": "MIT",
+  "homepage": "https://github.com/Wydoyolo/kapi-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wydoyolo/kapi-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wydoyolo/kapi-kit/issues"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "files": [
+    "src",
+    "examples",
+    "docs",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./examples/*": "./examples/*"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "lint": "node ./scripts/check.js",
+    "prepublishOnly": "npm run lint"
+  },
+  "keywords": [
+    "kick",
+    "kick-api",
+    "chat",
+    "livestream",
+    "moderation",
+    "oauth",
+    "webhooks",
+    "sdk"
+  ]
+}

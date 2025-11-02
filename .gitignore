@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+.env
+.npm-cache/
+kick-tokens.json
+multi-streamers.json
+rotation-tokens.json
+*.tgz
+*.log
